@@ -1,0 +1,71 @@
+header {
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+}
+
+body {
+    background-color: purple;
+}
+
+img {
+    max-width: 100%;
+}
+
+#container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: royalblue;
+    padding: 20px;
+    border: 2px solid violet;
+}
+
+h1 {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 5px;
+}
+
+nav a {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: cyan;
+    color: blueviolet;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+main h2 {
+    color: darkmagenta;
+    font-size: 40px;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 75%;
+}
+
+footer {
+    background-color: darkorchid;
+    padding: 40px 0px;
+    text-align: center;
+    color: white;
+}
