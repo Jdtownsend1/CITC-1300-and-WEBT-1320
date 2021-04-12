@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/slicknav.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;500&family=New+Tegomin&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <H1>VR and it's use's</H1>
+            </header>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <h2>What is VR?</h2>
+                    <div class="slider">
+                        <div><img src="images/Beat-saber-2.jpg" alt="Beat Saber"></div>
+                        <div><img src="images/vr-world-space.jpg" alt="Woman entering VR"></div>
+                        <div><img src="images/VR-space.jpg" alt="Man standing in space"></div>
+                        <div><img src="images/vr-workspace.jpeg" alt="VR in the workspace"></div>
+                    </div>
+                </section>
+                <section>
+                    <h2>How can VR be used?</h2>
+                    <div id="accordion">
+                        <h3>Entertainment</h3>
+                        <div>
+                          <p>
+                              The main purpose of VR is of course for Entertainment. It is a gaming VR ment for the general public to experence VR environments, worlds, and other things. 
+                          </p>
+                        </div>
+                        <h3>VR Training</h3>
+                        <div>
+                          <p>
+                          A form of "VR" has been used to train aircraft piolts already, although this new system allows training that feels abit more "real." It also has been used by the NYPD to train their officers for live shooter scenarios in a safe environment.
+                          </p>
+                        </div>
+                        <h3>Robotics</h3>
+                        <div>
+                          <p>
+                          With the right softwear you can control things such as a robotic arm using VR. NASA is exploring this field to attempt to expand on this technology.
+                          </p>
+                        </div>
+                      </div>
+                </section>
+                <section>
+                    <h2>More intel on VR</h2>
+                    <div id="tabs">
+                        <ul>
+                          <li><a href="#tabs-1">Entertainment</a></li>
+                          <li><a href="#tabs-2">VR Training</a></li>
+                          <li><a href="#tabs-3">Robotics</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <p>
+                                There are alot of games you can play inside VR and they very just as much as normal games! You can play casual games, hardcore games, horror games, and my favorate games with real gun mechanics! I would advase looking up VR games on <a href=" https://store.steampowered.com/search/?force_infinite=1&tags=21978&vrsupport=401" target="blank">Steam.</a> if you would like to look into this futher.
+                            </p>
+                        </div>
+                        <div id="tabs-2">
+                            <p>
+                                The NYPD is among the first to use a VR system to train their officers using the hardware. This allows them to train for any type of encountor without putting themselves in danger so that when they are called out for that type of call they know how to handle it. If you would like to look into this more you can find some information about this <a href="https://vrscout.com/news/nypd-active-shooter-vr-training/" target="blank">here.</a> 
+                            </p>
+                            <div><img src="images/NYPD-using-VR-to-train-for-active-shootings-and-real-life-scenarios.00_00_09_26.Still001-810x456.jpg" alt="NYPD Training"></div>
+                          
+                        </div>
+                        <div id="tabs-3">
+                            <p>
+                                This field is largely unknown, but that won't stop NASA! They are working with Sony Computer Entertainment to release a VR system for PS4 to replicate real-life challenges involved in controlling a robonaut. This may seem like just another game to some, but it could be the first step in creating a whole new field of technology! If you would like to look into this more you can find some information about this <a href="https://www.edn.com/nasa-uses-virtual-reality-for-robot-control/" target="blank">here.</a> 
+                            </p>
+                        </div>
+                      </div>
+                </section>
+            </main>
+            <footer>&copy; 2021 Lab 8</footer>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+        <script>
+            $(function(){
+                $('#menu').slicknav();
+                $('.slider').bxSlider();
+                $( "#accordion" ).accordion();
+                $( "#tabs" ).tabs();
+            });
+        </script>
+    </body>
+</html>

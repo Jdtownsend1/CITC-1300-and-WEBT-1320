@@ -5,4 +5,5 @@
     <li><a href="lab3/index.html" target="_blank">Lab 3</a></li>
     <li><a href="lab4/index.html" target="_blank">Lab 4</a></li>
     <li><a href="Midterm/index.html" target="_blank">Mid Term</a></li>
+    <li><a href="lab8/index.html" target="_blank">Lab 8</a></li>
 </ul>
