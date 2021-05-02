@@ -9,5 +9,5 @@
     <li><a href="lab6/index.html" target="_blank">Lab 6</a></li>
     <li><a href="lab7/index.html" target="_blank">Lab 7</a></li>
     <li><a href="lab8/index.html" target="_blank">Lab 8</a></li>
-    <li><a href="final/index.html" target="_blank">Final</a></li>
+    <li><a href="inal/index.html" target="_blank">Final</a></li>
 </ul>
