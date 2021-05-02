@@ -1,0 +1,201 @@
+/* Global Styles */
+
+img {
+    width: 100%;
+}
+
+header, h1, h2 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(16, 2, 66);
+}
+
+#container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(82, 255, 105);
+    padding: 20px;
+    border: 2px solid rgb(28, 167, 160);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(82, 255, 105);
+    text-decoration: none;
+}
+
+.desktop {
+    display: none;
+}
+
+main {
+    display: flex;
+}
+    
+
+/* Mobile Styles */
+
+header {
+    background-color: rgb(16, 2, 66);
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(16, 2, 66);
+    text-align: center;
+    border-radius: 5em;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0px;
+    border-top: 1px solid rgb(28, 167, 160);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(28, 167, 160);
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+main h2 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 85%;
+}
+
+footer {
+    background-color: rgb(16, 2, 66);
+    padding: 40px 0px;
+    text-align: center;
+    color: white;
+}
+
+.desktop {
+    display: none;
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px) {
+
+    nav li a {
+        border-top: none;
+    }
+
+    header {
+        background-image: url('../images/Tablet_Header.jpg');
+        background-size: cover;
+        background-position: center center;
+        padding: 60px 0;
+    }
+    header h1 {
+        color: white;   
+        text-shadow: 2px 2px 2px rgb(28, 167, 160);  
+        font-size: 2em;   
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        padding: 10px 40px;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    section , aside {
+        border: 4px solid rgb(28, 167, 160);
+        padding: 20px;
+        margin: 10px;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1024px) {
+    header {
+        background-image: url('../images/Desktop_Header.jpg');
+        padding: 100px 0;
+        background-position: center top;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    nav li a {
+        font-size: 3em;
+        padding: 10px 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid rgb(28, 167, 160);
+        background-image: url('../images/vr-world-space.jpg');
+        background-position: center center;
+    }
+
+    main {
+        background-color: rgba(82, 255, 105, .75);
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .tab_mobile {
+        display: none;
+    }
+
+    .active {
+        background-color: rgb(28, 167, 160); 
+        border-radius: 5em;               
+    }
+
+    main img {
+        border-radius: 20px;
+        border: 4px solid rgb(28, 167, 160);
+    }
+}
