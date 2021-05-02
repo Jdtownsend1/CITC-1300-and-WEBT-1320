@@ -1,3 +1,5 @@
+/* Gobal Styles */
+
 body {
     background-color: rgb(66, 11, 11);
 }
@@ -10,29 +12,48 @@ body {
     border: 2px solid rgb(202, 100, 4);
 }
 
-h1 {
-    color: black;
-    font-size: 60px;
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(173, 143, 10);
+    text-decoration: none;
+}
+
+/* mobile Styles */
+
+header {
+    background-color: rgb(133, 33, 33);
+    padding: 20px 0;
     text-align: center;
 }
 
 nav {
+    background-color: rgb(133, 33, 33);
     text-align: center;
-    padding: 5px;
 }
 
-nav a {
-    padding: 10px 20px;
-    background-color: rgb(180, 17, 131);
-    color: white;
-    font-size: 20px;
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0px;
+    border-top: 1px solid rgb(202, 100, 4);
+    font-size: 1.5em;
+    font-weight: bold;
     text-decoration: none;
-    border-radius: 20px;
 }
 
-nav a:hover {
-    background-color: cyan;
-    color: blueviolet;
+nav li a:hover {
+    background-color: rgb(202, 100, 4);
 }
 
 main {
@@ -54,7 +75,7 @@ main img {
 }
 
 footer {
-    background-color: rgb(180, 17, 131);
+    background-color: rgb(133, 33, 33);
     padding: 40px 0px;
     text-align: center;
     color: white;
