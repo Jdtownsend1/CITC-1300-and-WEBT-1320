@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Final</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <style>
+            main {
+                display: block;
+            }
+
+
+            img {
+                width: 100%;
+            }
+
+
+            main img {
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>The World of VR</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="gallery.html">Gallery</a></li>
+                    <li><a href="hardwear.html">Hardwear</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="slider">
+                    <div><img src="images/VR-globe-in-hand.jpeg" alt="VR Types"></div>
+                    <div><img src="images/Virtual-Reality.png" alt="VR Types"></div>
+                    <div><img src="images/VR-space.jpg" alt="VR Space"></div>
+                    <div><img src="images/vr-workspace.jpeg" alt="VR in the workspace"></div>
+                    <div><img src="images/VR_Prototype.jpg" alt="VR 1st Prototype"></div>
+                    <div><img src="images/VR_E3.jpg" alt="VR at E3"></div>
+                    <div><img src="images/VR_Types_3.jpg" alt="VR Types"></div>
+                </div>
+            </main>
+            <footer>&copy; 2021 Final</footer>
+        </div>
+
+        <script>
+            $(function(){
+                $('.slider').bxSlider();
+            });
+        </script>
+    </body>
+</html>
